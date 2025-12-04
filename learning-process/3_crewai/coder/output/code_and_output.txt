@@ -1,0 +1,26 @@
+# The Python code to calculate the first 10,000 terms of the series and print the result:
+
+```python
+# Define the number of terms
+num_terms = 10000
+
+# Initialize total to zero
+total = 0
+
+# Loop through the first 10,000 terms
+for i in range(num_terms):
+    # Calculate the denominator (odd numbers)
+    denominator = 2 * i + 1
+    # Calculate the term: 1/(2*i + 1) with alternating signs
+    term = (-1)**i * (1 / denominator)
+    # Add term to total
+    total += term
+
+# Multiply total by 4
+final_result = total * 4
+
+# Print the final result
+print(final_result)
+```
+Output of the code:
+3.1414926535900345

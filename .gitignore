@@ -186,3 +186,11 @@ memory.db
 # Ignore Accounts database in capstone project
 6_mcp/accounts.db
 6_mcp/memory/*.db
+
+*.lock
+*.pdf
+__init__.py
+*.bin
+*.db
+*.sqlite3
+*.toml
